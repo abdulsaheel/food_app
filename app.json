@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions":["INTERNET"],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.digi_vyaapar.food_admin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9ebf163e-569e-4ec0-93f5-e6beadfc07d0"
+      }
     }
   }
 }
